@@ -1,6 +1,5 @@
 -- Welcome to Crazy WallBouce!
 --Only have basic and portal ball movement
---keep audio to 0.05
 push = require 'push'
 Class = require 'class'
 require 'Paddle'
@@ -21,9 +20,9 @@ function love.load()
 
      math.randomseed(os.time())                                  
 
-     smallFont = love.graphics.newFont('font.ttf', 8) --size 8
+     smallFont = love.graphics.newFont('font.ttf', 8)
 
-     scoreFont = love.graphics.newFont('font.ttf', 24) --size 24
+     scoreFont = love.graphics.newFont('font.ttf', 24)
 
      largeFont = love.graphics.newFont('font.ttf', 40)
 
@@ -125,7 +124,7 @@ function love.update(dt)
 
           --when ball hits right wall
           if ball.x >= VIRTUAL_WIDTH -4 then
-               ball.dx = -ball.dx * 1.05
+               ball.dx = -ball.dx * 1.02
                --the 5 is necessary so that it will take the ball outside of the collision box of the paddle
                --ball.x = player.x -4
 
@@ -137,7 +136,7 @@ function love.update(dt)
                     ball.dy = math.random(10, 150)
                end
 
-               sounds['paddle_hit']:play()
+               sounds['wall_hit']:play()
           end
 
           --when ball hits left wall
@@ -213,7 +212,6 @@ function love.draw()
 
 --render ball (center)
      ball:render()
---love.graphics.rectangle('fill', VIRTUAL_WIDTH/2-2, 10, 20, 5)
      displayFPS()
      displayballState()
 

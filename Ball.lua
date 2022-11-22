@@ -6,8 +6,6 @@ function Ball:init(x, y, width, height)
      self.width = width
      self.height = height
 --keep track of the balls velocity 
-     --self.dy = math.random(2) == 1 and -100 or 100
-     --self.dx = math.random(-50,50)
      self.dy = math.random(2) == 1 and -100 or 100
      self.dx = math.random(2) == 1 and math.random(-50, -80) or math.random(50, 80)
 end
@@ -32,10 +30,7 @@ function Ball:collides(paddle)
      if self.y > paddle.y + paddle.height or paddle.y > self.y + self.height then
           return false
      end
-
---if none of the conditions occur this means that there has a a collision
      return true
-
 end
 
 function Ball:render()
