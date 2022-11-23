@@ -4,12 +4,8 @@ Wall Bounce Game
 
 To Start Game: 
 (MACOS)
-1. LOVE2D installed
-2. Make sure LOVE2D application is in Applications Folder
-3. In terminal change to directory where game files were downloaded
-4. Once there run this line of code to run the game
-/Applications/love.app/Contents/MacOS/love .
-5. Click "Enter" start game and click "Enter" again to serve the ball
+1. Download [wallBounce-macos.zip](https://github.com/Chrislucky7/wallBounce/releases/tag/v1.0.0/latest/download/wallBounce-macos.zip)
+1. Click "Enter" start game and click "Enter" again to serve the ball
 
 Game Rules:
 1. Every even point made the ball will have a basic movement where it will bounce off of the top and bottom walls
