@@ -4,8 +4,16 @@ Wall Bounce Game
 
 To Start Game: 
 (MACOS)
-1. Download [wallBounce-macos.zip](https://github.com/Chrislucky7/wallBounce/releases/tag/v1.0.0/latest/download/wallBounce-macos.zip)
-1. Click "Enter" start game and click "Enter" again to serve the ball
+1. Download [wallBounce-macos.zip](https://github.com/Chrislucky7/wallBounce/releases/download/v1.0.0/wallBounce-macos.zip)
+2. Extract it
+3. Open 'myGame'
+
+To Start Game: 
+(Windows)
+1. Download [wallBounce-win64.zip](https://github.com/Chrislucky7/wallBounce/releases/download/v1.0.0/wallBounce-win64.zip)
+2. Extract it
+3. Execute 'game.exe'
+
 
 Game Rules:
 1. Every even point made the ball will have a basic movement where it will bounce off of the top and bottom walls
