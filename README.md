@@ -3,7 +3,7 @@ Wall Bounce Game
 ----------------
 
 To Start Game: 
-(MACOS)
+(MacOS)
 1. Download [wallBounce-macos.zip](https://github.com/Chrislucky7/wallBounce/releases/download/v1.0.0/wallBounce-macos.zip)
 2. Extract it
 3. Open 'myGame'
