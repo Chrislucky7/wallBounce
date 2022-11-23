@@ -16,9 +16,10 @@ To Start Game:
 
 
 Game Rules:
-1. Every even point made the ball will have a basic movement where it will bounce off of the top and bottom walls
-2. Every odd point made the ball will have a teleport movement where it will teleport to opposite wall
-3. Every time the ball bounces off the player's paddle or the opposite right wall the speed will increment
+1. Use 'w' to move up and 's' to move down
+2. Every even point made the ball will have a basic movement where it will bounce off of the top and bottom walls
+3. Every odd point made the ball will have a teleport movement where it will teleport to opposite wall
+4. Every time the ball bounces off the player's paddle or the opposite right wall the speed will increment
 
 Future Updates:
 *  More mechanics to ball 
